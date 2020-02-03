@@ -1,7 +1,7 @@
 from discord.ext import commands
 import os
 import traceback
-from dispander import dispand
+#from dispander import dispand
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
