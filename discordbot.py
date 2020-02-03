@@ -17,12 +17,12 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-
+"""
 @client.event
 async def on_message(message):
     if message.author.bot:
         return
     await dispand(message)
-
+"""
 
 bot.run(token)
